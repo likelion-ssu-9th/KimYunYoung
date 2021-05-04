@@ -1,0 +1,56 @@
+.cardView{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+.userNickName{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-weight:500;
+}
+.cardImage img{
+    width: 400px;
+    height:400px;
+    object-fit: cover;
+    border-top: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.cardInfo{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoLeft{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.infoRight{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.feedImg{
+    width: 25px;
+    height: 25px;
+    margin-top:2px;
+    padding-left: 4px;
+}
+
+.comment_form {
+    border-top: 1px solid #D3D3D3;
+    margin-top: 20px;
+    padding: 5px 0 10px 10px;
+}
+
+.comment_form input{
+    border: none;
+}
