@@ -1,0 +1,68 @@
+.signUp_container{
+    display:flex;
+    position:relative;
+    border:1px solid #D3D3D3;
+    width: 300px;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding:50px 50px;
+    margin:100px auto 13px;
+}
+
+.instagramText{
+    padding-top: 40px;
+    height:50px;
+}
+
+.joinLetter{
+    padding:0 30px 10px 30px;
+    font-size: 110%;
+    color: #6a6a6a;
+    text-align: center;
+    width:200px;
+}
+.Line{
+    border-top:1px solid #D3D3D3;
+    width: 300px;
+    margin-bottom: 45px;
+}
+.userSignUp{
+    background-color: #FAFAFA;
+    margin-top:3px;
+    width:250px;
+    height:30px;
+}
+.userSignUp::placeholder{
+    padding-left:3px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+#signUpButton{
+    background-color: #9fe4fc;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: 260px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.joinInsta{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border:1px solid #d3d3d3;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+}
+.joinBtn{
+    background-color: white;
+    color: #36bfff;
+    border: none;
+    font-weight:bold;
+}

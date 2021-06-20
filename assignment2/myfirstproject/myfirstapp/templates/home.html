@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 </head>
+
 <body>
+    <div>
+        <a href="{% url 'new' %}">글작성 하자!</a>
+    </div>
     <div>
         {% for blog in blogs %}
             <h2>제목 : {{blog.title}}</h2>
             <p style=font-size:small>날짜 : {{blog.pub_data}}</p>
             
-            <p style=font-size:small>본문 : {{blog.summary}}  <a href="%url 'detail' blog.id %}">...more</a></p>
+            <p style=font-size:small>본문 : {{blog.summary}}  <a href="% url 'detail' blog.id %}">...more</a></p>
         {% endfor %}
+
     </div>
 </body>
 </html>
